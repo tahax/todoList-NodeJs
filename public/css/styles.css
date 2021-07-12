@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "BYekan";
+    src: url("../fonts/BYekan-webfont.eot") format("eot"),
+        url("../fonts/BYekan-webfont.woff") format("woff"),
+        url("../fonts/BYekan-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body {
+    font-family: "BYekan" !important;
+}
+
+.form-group {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#todo {
+    margin: 0 auto;
+    width: 500px;
+}
+
+a.close {
+    float: right;
+}
+
+.center {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
